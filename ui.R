@@ -6,7 +6,7 @@ require(markdown)
 require(stringr)
 source('source-code/functions.R')
 
-shinyUI(navbarPage(a("New Window", href = "https://shiny.roche.com/public/manserp1/sample-size-eval/"),
+shinyUI(navbarPage("",
 
 # Main Tab ---------------------
   tabPanel("Main", 
